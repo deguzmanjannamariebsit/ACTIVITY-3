@@ -1,1 +1,21 @@
 # ACTIVITY-3
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int hours, minutes, totalminutes;
+	
+	cout << "Input Hours: ";
+	cin >> hours;
+	
+	cout << "Input Minutes: ";
+	cin >> minutes;
+	
+	
+	totalminutes= (hours *60)+ minutes;
+	
+	cout << "Total: " << totalminutes << " minutes" << endl;
+	
+	return 0;
+}
